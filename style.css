@@ -77,5 +77,10 @@ main {
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+}
+
+#user-code-container {
+	/* Extra CSS for user code, can be overridden by JS */
+	pointer-events: none;
+	user-select: all;
 }
